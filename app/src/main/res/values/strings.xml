@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_saved">Saved</string>
+    <string name="label_home">Home</string>
+
+
+    <string name="pref_country_code_label">Country Code</string>
+    <string name="pref_country_code_key" translatable="false">country_code</string>
+    <string name="pref_country_code_default" translatable="false">@string/pref_country_code_in</string>
+
+
+    <string-array name="pref_country_code_entries" translatable="false">
+        <item>@string/pref_country_entry_au</item>
+        <item>@string/pref_country_entry_be</item>
+        <item>@string/pref_country_entry_in</item>
+        <item>@string/pref_country_entry_ae</item>
+        <item>@string/pref_country_entry_us</item>
+    </string-array>
+
+    <string name="pref_country_entry_au" translatable="false">Australia</string>
+    <string name="pref_country_entry_be" translatable="false">Belgium</string>
+    <string name="pref_country_entry_in" translatable="false">India</string>
+    <string name="pref_country_entry_ae" translatable="false">UAE</string>
+    <string name="pref_country_entry_us" translatable="false">United States</string>
+
+    <string-array name="pref_country_code_values" translatable="false">
+        <item>@string/pref_country_code_au</item>
+        <item>@string/pref_country_code_be</item>
+        <item>@string/pref_country_code_in</item>
+        <item>@string/pref_country_code_ae</item>
+        <item>@string/pref_country_code_us</item>
+    </string-array>
+
+
+    <string name="pref_country_code_ae" translatable="false">ae</string>
+    <string name="pref_country_code_au" translatable="false">au</string>
+    <string name="pref_country_code_be" translatable="false">be</string>
+    <string name="pref_country_code_in" translatable="false">in</string>
+    <string name="pref_country_code_us" translatable="false">us</string>
+
+    <string-array name="news_categories">
+        <item>@string/news_category_all</item>
+        <item>@string/news_category_business</item>
+        <item>@string/news_category_technology</item>
+        <item>@string/news_category_entertainment</item>
+        <item>@string/news_category_general</item>
+        <item>@string/news_category_health</item>
+        <item>@string/news_category_science</item>
+        <item>@string/news_category_sports</item>
+    </string-array>
+
+    <string name="news_category_all">All</string>
+    <string name="news_category_business">Business</string>
+    <string name="news_category_entertainment">Entertainment</string>
+    <string name="news_category_general">General</string>
+    <string name="news_category_health">Health</string>
+    <string name="news_category_science">Science</string>
+    <string name="news_category_sports">Sports</string>
+    <string name="news_category_technology">Technology</string>
+    <string name="label_search">Search</string>
+    <string name="enter_search_hint">Enter text to search</string>
+    <string name="fab_saved_content_description">Mark Saved</string>
+
+
+</resources>
